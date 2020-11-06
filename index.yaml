@@ -14,4 +14,28 @@ entries:
     urls:
     - https://github.com/ntfrnzn/charts/releases/download/enterprise-gateway-2.3.0/enterprise-gateway-2.3.0.tgz
     version: 2.3.0
+  - apiVersion: v1
+    created: "2020-11-06T22:04:53.006624284Z"
+    description: A helm chart to deploy Jupyter Enterprise Gateway
+    digest: e3f37a06d6d77098589c349d9df485070519f85f61b79394d9b7398be30a6e23
+    home: https://jupyter.org/enterprise_gateway
+    icon: https://avatars1.githubusercontent.com/u/7388996?s=200&v=4
+    kubeVersion: '>=1.11.0-0'
+    name: enterprise-gateway
+    sources:
+    - https://github.com/jupyter/enterprise_gateway
+    urls:
+    - https://github.com/ntfrnzn/charts/releases/download/enterprise-gateway-2.3.0-a/enterprise-gateway-2.3.0-a.tgz
+    version: 2.3.0-a
+  wave-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-11-06T22:04:53.12168738Z"
+    description: A Helm chart for Kubernetes
+    digest: b14754ade6bb14f9e5b56f428e8bef5556fcc0a97a7c1c9c4c36282b193d9dbc
+    name: wave-operator
+    type: application
+    urls:
+    - https://github.com/ntfrnzn/charts/releases/download/wave-operator-0.1.0/wave-operator-0.1.0.tgz
+    version: 0.1.0
 generated: "2020-10-28T23:00:50.678097759Z"
