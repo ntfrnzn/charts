@@ -29,6 +29,16 @@ entries:
     version: 2.3.0-a
   wave-operator:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2020-11-18T18:44:52.238079257Z"
+    description: A Helm chart for Kubernetes
+    digest: 18df67172e7f678359b7bdac463cd9486568c4054c7d5098d170adbacda1acac
+    name: wave-operator
+    type: application
+    urls:
+    - https://github.com/ntfrnzn/charts/releases/download/wave-operator-0.1.3/wave-operator-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.2
     created: "2020-11-16T19:24:13.495057271Z"
     description: A Helm chart for Kubernetes
