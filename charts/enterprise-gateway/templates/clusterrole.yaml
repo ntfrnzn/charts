@@ -21,7 +21,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   # Referenced by EG_KERNEL_CLUSTER_ROLE in the Deployment
-  name: kernel-controller
+  name: {{ .Values.kernel.clusterRole }}
   labels:
     app: enterprise-gateway
     component: kernel
